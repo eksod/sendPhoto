@@ -1,0 +1,11 @@
+<sendPhoto>
+  <email>email@address.com</email>
+  <!-- email>another@address.com</email -->
+  <subject>Photo from my Android just now!</subject>
+  <message>Message body.</message>
+  <!-- Android().cameraInteractiveCapturePicture() uses "/directory/file"
+       Android().sendEmail() attachment uses "file:///directory/file"
+       file:/// is added on the .py  -->
+  <picturePath>/sdcard/sendPhoto.jpg</picturePath>
+  <mapURL>http://maps.google.com/maps?q=</mapURL>
+</sendPhoto>
