@@ -1,0 +1,5 @@
+This is a simple python script to take a picture and send a photo all in one click (or almost). It basically just calls the camera app, save the picture with always the same filename on the sdcard and calls the sendEmail application filled with data from an external .xml file.
+
+Try it at your own risk!!
+
+Author: 'Eduardo Simioni <eduardo.simioni@gmail.com>'
